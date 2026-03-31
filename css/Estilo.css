@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-color: yellowgreen;
+
+}
+
+.imglogo {
+    width: 5%;
+    height: 5%;
+
+}
+.menu-principal{background-color: grey;
+
+}
+
+.menu-principal,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-principal,
+ul,
+li {
+    display: inline;
+}
+a:hover{
+    background-color: hotpink;
+    color: cornflowerblue;
+    border-radius: 5px;
+    padding: 5px;
+}
